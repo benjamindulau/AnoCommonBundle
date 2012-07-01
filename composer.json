@@ -1,0 +1,21 @@
+{
+    "name":         "ano/common-bundle",
+    "description":  "Anonymation common/utils bundle",
+    "keywords":     ["common", "util"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":     "Benjamin Dulau",
+            "email":    "benjamin.dulau@anonymation.com",
+            "homepage": "http://www.anonymation.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Ano\\Bundle\\CommonBundle": "" }
+    },
+    "target-dir": "Ano/Bundle/CommonBundle"
+}
